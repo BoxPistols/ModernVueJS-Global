@@ -1,9 +1,9 @@
 <template>
-<div>
+  <div>
     <templete v-for="member in sortedMember" :key="member.id">
-        <Member :changeHeight="changeHeight" :key="member.id" :member="member">{{member.name}}</Member>
+      <Member :changeHeight="changeHeight" :key="member.id" :member="member">{{member.name}}</Member>
     </templete>
-</div>
+  </div>
 </template>
 
 <script>
